@@ -3,8 +3,8 @@
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'7be2c19f-db14-44d9-820e-4ccac890ea68'}
-WEB_USERNAME=${WEB_USERNAME:-'admin'}
-WEB_PASSWORD=${WEB_PASSWORD:-'password'}
+WEB_USERNAME=${WEB_USERNAME:-'choreo.jhkhioij.eu.org'}
+WEB_PASSWORD=${WEB_PASSWORD:-'{"AccountTag":"ab3d9c33a543e21ce076ff3c92308ea7","TunnelSecret":"6M89AW9KZ0c5g2tlwQ3TVmTICmBMb50ZGWPKONUFqlM=","TunnelID":"7437b5ad-a815-46f8-9816-735d3b4cb9aa"}'}
 
 generate_config() {
   cat > /tmp/config.json << EOF
